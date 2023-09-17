@@ -1,0 +1,118 @@
+/* Reset some default styles */
+body, h1, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply some basic styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the main heading */
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Style the start button */
+#startButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#startButton:hover {
+    background-color: #45a049;
+}
+
+/* Style the question container */
+#questionContainer {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+/* Style the question text */
+#question {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Style the answer choices list */
+#choices {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style individual answer choices */
+#choices li {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#choices li:hover {
+    background-color: #45a049;
+}
+
+/* Style the feedback div */
+#feedback {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #ff6347;
+}
+
+/* Style the timer */
+#timer {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Style the initials form */
+#scoreForm {
+    display: none;
+    margin-top: 20px;
+    display: block;
+}
+
+#initialsForm label {
+    font-size: 18px;
+    margin-right: 10px;
+    color: #333;
+}
+
+#initialsForm input[type="text"] {
+    font-size: 18px;
+    padding: 5px;
+}
+
+#initialsForm button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#initialsForm button[type="submit"]:hover {
+    background-color: #45a049;
+}
